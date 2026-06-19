@@ -1,0 +1,14 @@
+# Phishing-scanner keyword feed
+#
+# Format: "category: term, term, term" (one category per line).
+# Lines with no colon are bucketed under "general".
+# Lines starting with # are comments.
+#
+# These are weak, corroborating signals only -- the scoring engine caps
+# their total contribution (see ScoringWeights.keyword_match_cap) so a
+# single match never classifies a URL as malicious on its own.
+credential: login, password, account, admin
+financial: bank, money, free, lottery, offer
+suspicious-tld: .dev, .net, .shop, .en
+suspicious-path: .php?
+social-engineering: hack, cloud, opportunity, jobs
