@@ -25,11 +25,11 @@ from .exceptions import ThreatIntelUnavailableError
 logger = logging.getLogger(__name__)
 
 DEFAULT_DOMAINS_URL = (
-    "https://raw.githubusercontent.com/KaniskRaj/phishing-scanner/main/data/domains.txt"
+    "https://raw.githubusercontent.com/KaniskRaj/Phishing_scanner/main/data/domains.txt"
 )
-DEFAULT_IPS_URL = "https://raw.githubusercontent.com/KaniskRaj/phishing-scanner/main/data/ips.txt"
+DEFAULT_IPS_URL = "https://raw.githubusercontent.com/KaniskRaj/Phishing_scanner/main/data/ips.txt"
 DEFAULT_KEYWORDS_URL = (
-    "https://raw.githubusercontent.com/KaniskRaj/phishing-scanner/main/data/keywords.txt"
+    "https://raw.githubusercontent.com/KaniskRaj/Phishing_scanner/main/data/keywords.txt"
 )
 
 DEFAULT_TIMEOUT_SECONDS = 10

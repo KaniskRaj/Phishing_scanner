@@ -44,8 +44,8 @@ dev = [
 phishing-scanner = "phishing_scanner.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/KaniskRaj/phishing-scanner"
-Issues = "https://github.com/KaniskRaj/phishing-scanner/issues"
+Homepage = "https://github.com/KaniskRaj/Phishing_scanner"
+Issues = "https://github.com/KaniskRaj/Phishing_scanner/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

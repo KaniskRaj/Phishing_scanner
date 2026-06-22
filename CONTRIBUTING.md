@@ -5,8 +5,8 @@ Thanks for considering a contribution.
 ## Setup
 
 ```bash
-git clone https://github.com/KaniskRaj/phishing-scanner.git
-cd phishing-scanner
+git clone https://github.com/KaniskRaj/Phishing_scanner.git
+cd Phishing_scanner
 pip install -e ".[dev]"
 pre-commit install   # optional, but recommended
 ```
